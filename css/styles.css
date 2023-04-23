@@ -67,13 +67,14 @@ a {
 
 /* ======Header===== */
 .header {
-  height: 70px;
+  /* height: 70px;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 
 .header .container {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -84,10 +85,18 @@ a {
 
 .header-list {
   display: flex;
+  /* padding: 30px 0; */
 }
 
 .header-item {
 }
 
 .header-link {
+  padding: 30px 0;
+  display: block;
+}
+
+.header-link:focus,
+.header-link:hover {
+  background-color: var(--ocean);
 }
