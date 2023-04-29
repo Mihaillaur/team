@@ -81,14 +81,23 @@ a {
 }
 
 .header-nav {
+  margin-left: auto;
+  /* background-color: #31d0aa; */
 }
 
 .header-list {
   display: flex;
+  gap: 10px;
+  /* margin-left: 200px; */
+  /* padding-left: 200px; */
+  background-color: #31d0aa;
+
   /* padding: 30px 0; */
 }
 
-.header-item {
+.header-item:not(:last-child) {
+  /* margin-right: 10px; */
+  background-color: red;
 }
 
 .header-link {
